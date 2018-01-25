@@ -1,12 +1,6 @@
-
-#Swollen Nolon
+#SwollenNolon
 #1/24/18
-#face.py
+#km2miles.py
 
-print("   xxxxx   ")
-print("  x     x  ")
-print("((  o o  ))")
-print("  |  V  |  ")
-print("  | === |  ")
-print("   -----   ")
-
+kilometers = float(input('How many Kilometers?'))
+print(kilometers, 'Kilometers is', kilometers * 0.621371, 'miles')
